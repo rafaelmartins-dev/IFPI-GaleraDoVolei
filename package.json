@@ -1,0 +1,29 @@
+{
+  "name": "ifpi-galeradovolei",
+  "version": "1.0.0",
+  "description": "Este projeto é uma **API simples** para organizar partidas de vôlei em uma comunidade online.   Foi criado com fins de **aprendizado**, utilizando **Node.js + TypeScript + Express + Prisma + SQLite**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelmartins-dev/IFPI-GaleraDoVolei.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/rafaelmartins-dev/IFPI-GaleraDoVolei/issues"
+  },
+  "homepage": "https://github.com/rafaelmartins-dev/IFPI-GaleraDoVolei#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10"
+  }
+}
