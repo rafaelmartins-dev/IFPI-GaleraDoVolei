@@ -1,6 +1,7 @@
 {
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
+    "allowImportingTsExtensions": true,
     // File Layout
     // "rootDir": "./src",
     // "outDir": "./dist",
@@ -9,6 +10,7 @@
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
     "target": "esnext",
+    "noEmit": true,
     "types": [],
     // For nodejs:
     // "lib": ["esnext"],
